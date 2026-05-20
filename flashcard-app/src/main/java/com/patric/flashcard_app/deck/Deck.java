@@ -12,7 +12,7 @@ public class Deck {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private Long deckId;
+    private Long id;
 
     @ManyToOne
     @JoinColumn(name = "userId")
